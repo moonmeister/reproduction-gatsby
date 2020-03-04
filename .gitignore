@@ -1,0 +1,6 @@
+# gatsby files
+.cache/
+public
+
+# yarn 
+node_modules
