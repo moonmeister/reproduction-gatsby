@@ -5825,7 +5825,6 @@ fsevents@~2.1.1:
   resolution: "gatsby-demo@workspace:."
   dependencies:
     gatsby: ^2.19.27
-    gatsby-plugin-sitemap: ^2.2.27
     react: ^16.13.0
     react-dom: ^16.13.0
   languageName: unknown
@@ -5888,20 +5887,6 @@ fsevents@~2.1.1:
   peerDependencies:
     gatsby: ^2.0.0
   checksum: 2/5463520eddb05113b143aaf2176acd847ed0279ec6fe41c5346cdd06e1c170800b5df97ac7c33113cbf597b0078c3cbe1f234c05ba9e430a2ff21c7554b5e9d4
-  languageName: node
-  linkType: hard
-
-"gatsby-plugin-sitemap@npm:^2.2.27":
-  version: 2.2.27
-  resolution: "gatsby-plugin-sitemap@npm:2.2.27"
-  dependencies:
-    "@babel/runtime": ^7.7.6
-    minimatch: ^3.0.4
-    pify: ^3.0.0
-    sitemap: ^1.13.0
-  peerDependencies:
-    gatsby: ^2.0.0
-  checksum: 2/94159e56a738408595859a8ad17dd12168aaff9fece32aecacb5dcb56d874c5a6eb848af7000ecca2af55318fad0201b1d1147c5a2ccec8ba1236397cdaaf2e2
   languageName: node
   linkType: hard
 
@@ -11775,16 +11760,6 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"sitemap@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "sitemap@npm:1.13.0"
-  dependencies:
-    underscore: ^1.7.0
-    url-join: ^1.1.0
-  checksum: 2/62aa832a7c126d8f45100328783cf4d1197db2fc146f5f5ad80c4b779efdcc69d6a83acad10d6b6056f442315274909b246cf79475abc5dc2dabb8a7fbe84d0d
-  languageName: node
-  linkType: hard
-
 "slash@npm:^3.0.0":
   version: 3.0.0
   resolution: "slash@npm:3.0.0"
@@ -12890,13 +12865,6 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"underscore@npm:^1.7.0":
-  version: 1.9.2
-  resolution: "underscore@npm:1.9.2"
-  checksum: 2/732d9b449dec613695a3510a98483f8e08cb9b6680a4cb166a8e260dbe768e9ab5cdce4a075a8f6811f675409f13974f6e4bf402e8e648a363d646b072ae7e99
-  languageName: node
-  linkType: hard
-
 "unicode-canonical-property-names-ecmascript@npm:^1.0.4":
   version: 1.0.4
   resolution: "unicode-canonical-property-names-ecmascript@npm:1.0.4"
@@ -13061,13 +13029,6 @@ fsevents@~2.1.1:
   version: 0.1.0
   resolution: "urix@npm:0.1.0"
   checksum: 2/6bdfca4e7fb7d035537068a47a04ace1bacfa32e6b1aaf54c5a0340c83125a186d59109a19b9a3a1c1f986d3eb718b82faf9ad03d53cb99cf868068580b15b3b
-  languageName: node
-  linkType: hard
-
-"url-join@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "url-join@npm:1.1.0"
-  checksum: 2/2f42ba3642f3fa879b12eaa31d085055a67e650c4ad08a44983e155cbcc3dee888e885f31b084d33d819b19e8c764f04d25bf63d7357c59796d7bc9a0e996999
   languageName: node
   linkType: hard
 

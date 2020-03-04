@@ -36,7 +36,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["gatsby", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:2.19.27"],
-            ["gatsby-plugin-sitemap", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:2.2.27"],
             ["react", "npm:16.13.0"],
             ["react-dom", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:16.13.0"]
           ],
@@ -6809,7 +6808,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["gatsby-demo", "workspace:."],
             ["gatsby", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:2.19.27"],
-            ["gatsby-plugin-sitemap", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:2.2.27"],
             ["react", "npm:16.13.0"],
             ["react-dom", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:16.13.0"]
           ],
@@ -6882,23 +6880,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["glob", "npm:7.1.6"],
             ["lodash", "npm:4.17.15"],
             ["micromatch", "npm:3.1.10"]
-          ],
-          "packagePeers": [
-            "gatsby"
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["gatsby-plugin-sitemap", [
-        ["virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:2.2.27", {
-          "packageLocation": "./.yarn/$$virtual/gatsby-plugin-sitemap-virtual-34d501f2fa/0/cache/gatsby-plugin-sitemap-npm-2.2.27-b782a1551d-2.zip/node_modules/gatsby-plugin-sitemap/",
-          "packageDependencies": [
-            ["gatsby-plugin-sitemap", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:2.2.27"],
-            ["@babel/runtime", "npm:7.8.4"],
-            ["gatsby", "virtual:7f2d25b72c922b5817dfa5682d63ed45fbe168ad6e015732439531dc6700b78a1e4bf6e20e84a064bf4bd39fd76ef79d8fc2c04f1f4d5330e220942b721630bc#npm:2.19.27"],
-            ["minimatch", "npm:3.0.4"],
-            ["pify", "npm:3.0.0"],
-            ["sitemap", "npm:1.13.0"]
           ],
           "packagePeers": [
             "gatsby"
@@ -13285,17 +13266,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["sitemap", [
-        ["npm:1.13.0", {
-          "packageLocation": "./.yarn/cache/sitemap-npm-1.13.0-15e2471a44-2.zip/node_modules/sitemap/",
-          "packageDependencies": [
-            ["sitemap", "npm:1.13.0"],
-            ["underscore", "npm:1.9.2"],
-            ["url-join", "npm:1.1.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["slash", [
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/slash-npm-3.0.0-b87de2279a-2.zip/node_modules/slash/",
@@ -14538,15 +14508,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["underscore", [
-        ["npm:1.9.2", {
-          "packageLocation": "./.yarn/cache/underscore-npm-1.9.2-13063f8b49-2.zip/node_modules/underscore/",
-          "packageDependencies": [
-            ["underscore", "npm:1.9.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["unicode-canonical-property-names-ecmascript", [
         ["npm:1.0.4", {
           "packageLocation": "./.yarn/cache/unicode-canonical-property-names-ecmascript-npm-1.0.4-8c5eeb73e7-2.zip/node_modules/unicode-canonical-property-names-ecmascript/",
@@ -14748,15 +14709,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["url", "npm:0.11.0"],
             ["punycode", "npm:1.3.2"],
             ["querystring", "npm:0.2.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["url-join", [
-        ["npm:1.1.0", {
-          "packageLocation": "./.yarn/cache/url-join-npm-1.1.0-c9bf25c365-2.zip/node_modules/url-join/",
-          "packageDependencies": [
-            ["url-join", "npm:1.1.0"]
           ],
           "linkType": "HARD",
         }]
